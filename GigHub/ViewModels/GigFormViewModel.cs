@@ -11,6 +11,7 @@ namespace GigHub.ViewModels
         public string Venue { get; set; }
 
         [Required]
+        [FutureDate]
         public string Date { get; set; }
 
         [Required]
@@ -21,6 +22,7 @@ namespace GigHub.ViewModels
 
         [Required]
         public IEnumerable<Genre> Genres { get; set; }
+
 
         public DateTime GetDateTime()
         {

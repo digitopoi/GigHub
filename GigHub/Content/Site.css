@@ -46,6 +46,10 @@ textarea {
     border-bottom-color: #fff;
 }
 
+.navbar-brand {
+    font-weight: 700;
+}
+
 .dropdown-menu {
     box-shadow: none;
     -webkit-box-shadow: none;

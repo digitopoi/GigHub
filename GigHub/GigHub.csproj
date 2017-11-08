@@ -240,6 +240,10 @@
     <Compile Include="Migrations\201711080230514_AddAttendance.Designer.cs">
       <DependentUpon>201711080230514_AddAttendance.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711082145082_AddFollowing.cs" />
+    <Compile Include="Migrations\201711082145082_AddFollowing.Designer.cs">
+      <DependentUpon>201711082145082_AddFollowing.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
@@ -359,6 +363,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201711080230514_AddAttendance.resx">
       <DependentUpon>201711080230514_AddAttendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711082145082_AddFollowing.resx">
+      <DependentUpon>201711082145082_AddFollowing.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -13,7 +13,7 @@ namespace GigHub.Controllers
 
         public GigsController()
         {
-            _context = new ApplicationDbContext();
+            _context = new ApplicationDbContext();    
         }
 
         [Authorize]

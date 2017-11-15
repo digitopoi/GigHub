@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace GigHub.Models
 {
+    // Alternatively, this class could be called Relationship.
     public class Following
     {
         [Key]
@@ -14,6 +15,6 @@ namespace GigHub.Models
         public string FolloweeId { get; set; }
 
         public ApplicationUser Follower { get; set; }
-        public ApplicationUser Folowee { get; set; }
+        public ApplicationUser Followee { get; set; }
     }
 }

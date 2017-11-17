@@ -262,6 +262,7 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Notification.cs" />
     <Compile Include="Models\NotificationType.cs" />
+    <Compile Include="Models\UserNotification.cs" />
     <Compile Include="ViewModels\ExternalLoginConfirmationViewModel.cs" />
     <Compile Include="ViewModels\ExternalLoginListViewModel.cs" />
     <Compile Include="ViewModels\ForgotPasswordViewModel.cs" />
